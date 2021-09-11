@@ -251,6 +251,18 @@ class __TableStrucMain1State extends State<_TableStrucMain1> {
                                 field08: "",
                                 field09: "",
                                 field10: "");
+                            EditDataTable1buffer = MainStrucTableTap1(
+                                number: "",
+                                field01: "",
+                                field02: "",
+                                field03: "",
+                                field04: "",
+                                field05: "",
+                                field06: "",
+                                field07: "",
+                                field08: "",
+                                field09: "",
+                                field10: "");
                             BlocProvider.of<BlocPageRebuild>(context)
                                 .rebuildPage();
                           },
